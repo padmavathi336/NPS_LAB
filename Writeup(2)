@@ -1,0 +1,23 @@
+After opening Cisco Packet Tracer,created a new file then I selected a router,a switch and two PC's.
+Using copper straingt cable I connected PC0 to switch, then router to switch and PC1 to switch.
+Then assigned IP address to the router.
+Then after assigned IP address to both the PC's.
+After that opened the Command Prompt of the PC0, and used the following commands:
+     1.ipconfig :
+              it displayed the current ip network configuration values
+
+     2.tracert <ip configuration>:
+              it traced the path taken to the destination by sending echo request messages
+
+     3.telnet <destination IP> <port> :
+             it is used for interactive communication with another host.
+Now assign IP address to the router.
+
+     4.ping 192.168.2.2:
+
+     5.nslookup:
+
+Add one server and connect both PC's and the server to the switch using copper straight-through cables.
+Assign IP address to the server (192.168.1.3) and default gateway as (192.168.1.1).
+
+      6.nerstart:
