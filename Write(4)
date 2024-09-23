@@ -1,0 +1,16 @@
+Setting up the Network Topology.
+Devices:
+   Switch 1, Switch 2
+   PC 1 and PC 2 -> S1
+   PC 3 and PC 4 -> S1
+   PC5 and PC6 -> S2
+   PC7 and PC8 -> S2
+      VLAN's:
+      VLAN 10 - IP range 192.168.10.0/24
+      VLAN 20 - IP range 192.168.20.0/24
+Drag and drop the devices and connect PC's to the switches using straight-through cables.
+Connect fa0/24 of S1 to fa0/24 of S2 using cross-over cable.
+Assign switch0 and switch1 configurations.
+Check trunk ports and show the vlan.
+Configure End Devices and test the connectivity within VLAN's.
+Verify that PCs in different VLAN's cannot communicate without a router.
