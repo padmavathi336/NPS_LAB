@@ -1,0 +1,6 @@
+Open Cisco Packet Tracer.
+Add Cisco switch (2960) and two PC's.
+Connect each PC to the switch using FastEthernet ports(PC) tp FastEthernet0/1 , PC1 to FastEthernet0/2).
+Open CLI of the switch and configure the router and PC's.
+Ping between PC's (PC0).
+Use ping command to check the connectivity to the other PC.
